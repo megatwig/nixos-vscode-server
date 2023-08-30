@@ -1,1 +1,1 @@
-import ./modules/nixos.nix;
+import ./modules/nixos.nix
