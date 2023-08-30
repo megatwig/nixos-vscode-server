@@ -1,1 +1,1 @@
-{ imports = builtins.attrValues (import ./modules/nixos.nix {}); }
+{ pkgs, ... }: { imports = builtins.attrValues (pkgs.callPackage ./modules/nixos.nix {}); }
